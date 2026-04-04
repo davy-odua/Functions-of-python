@@ -14,3 +14,12 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+result = multiply(2,3,4,5)
+print(result)
